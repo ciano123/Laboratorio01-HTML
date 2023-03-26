@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistência Técnica CS - Cadastro de Ordem de Serviço</title>
+</head>
+<body>
+    <div><a href="index.html" title="Página Inicial da Assistência">Página Inicial</a></div>
+    <h1>Cadastro de Ordem de Serviço</h1>
+    <form action="GET">
+        <label for="name">Nome do Cliente: </label>
+        <input type="text" name="name" placeholder="Nome Completo">
+        <br>
+        <label for="CPF">CPF do Cliente:</label>
+        <input type="number" name="CPF" placeholder="CPF">
+        <br>
+        <div>
+            <label for="">Endereço do Cliente:</label>
+            <br>
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" name="logradouro" placeholder="Rua, Av., Travesa, etc">
+            <label for="CEP">CEP: </label>
+            <input type="number" name="CEP" placeholder="CEP">
+            <br>
+            <label >Estado:</label>
+            <select name="Estado" >
+                <option value="Select--">- Select -</option>
+                <option value="Ceará">Ceará</option>
+                <option value="Piauí">Piauí</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+            </select>
+            <label for="cidade">Cidade:</label>
+            <select name="cidade" >
+                <option value="Select--">- Select -</option>
+                <option value="Meruoca">Meruoca</option>
+                <option value="Sobral">Sobral</option>
+                <option value="Massapê">Massapê</option>
+                <option value="Alcantaras">Alcantaras</option>
+                <option value="Coreau">Coreau</option>
+                <option value="Tiangua">Tiangua</option>
+            </select>
+            <br>
+            <label for="">Modelo do Celular:</label>
+            <select name="cidade" >
+                <option value="Select--">- Select -</option>
+                <option value="Iphone">Iphone</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Nokia">Nokia</option>
+                <option value="Xiaomi">Xiaomi</option>
+                <option value="Motorola">Motorola</option>
+                <option value="Positivo">Positivo</option>
+            </select>
+            <br>
+            <label for="">Relado de defeito:</label>
+            <br>
+            <textarea name="" cols="65" rows="15"></textarea>
+            <br>
+            <label for="">Imagem do Aparelho:</label>
+            <input type="file" name="" id="">
+            <br>
+            <br>
+            <input style="color: darkgreen; border: 10x; background-color: cadetblue; width: 13%;" type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
